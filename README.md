@@ -5,7 +5,7 @@ Material collapsing toolbar and floating action button demonstration
 
 # Design Owner
 
-Design is created by [Amin Ghabi] (https://amineghabi.parseapp.com)
+Design is created by [Amine Ghabi] (https://amineghabi.parseapp.com)
 
 
 # Library used
@@ -18,7 +18,7 @@ License
 --------
 
 
-    Copyright 2015 Amin Ghabi.
+    Copyright 2015 Amine Ghabi.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
