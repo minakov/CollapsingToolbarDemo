@@ -31,7 +31,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         radioList = new ArrayList<>();
     }
 
-    public void setRadioList(List<Radio> radioList){
+    public void setRadioList(List<Radio> radioList) {
         this.radioList = radioList;
         notifyDataSetChanged();
     }
@@ -58,7 +58,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         return radioList.size();
     }
 
-    public class RadioViewHolder extends RecyclerView.ViewHolder{
+    public class RadioViewHolder extends RecyclerView.ViewHolder {
 
         @Bind(R.id.textview_radio_name)
         TextView textViewRadioName;
@@ -74,7 +74,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         public RadioViewHolder(View itemView) {
             super(itemView);
-            ButterKnife.bind(this,itemView);
+            ButterKnife.bind(this, itemView);
 
         }
     }

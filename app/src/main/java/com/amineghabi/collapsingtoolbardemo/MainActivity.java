@@ -36,10 +36,8 @@ public class MainActivity extends AppCompatActivity {
         loadData();
     }
 
-    /**
-     * Initializes views and adapter
-     */
-    private void initializeViewsAdapter(){
+
+    private void initializeViewsAdapter() {
 
         setSupportActionBar(toolbar);
         collapsingToolbarLayout.setTitle("My RadioList");
@@ -52,14 +50,12 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
     }
 
-    /**
-     * load mock data to adapter
-     */
-    private void loadData(){
+
+    private void loadData() {
         Radio radio = new Radio("Joy Radio FM", R.drawable.temp, "102.5");
         List<Radio> radioList = new ArrayList<>();
 
-        for (int i = 0 ; i < 20 ; i++)
+        for (int i = 0; i < 20; i++)
             radioList.add(radio);
 
         adapter.setRadioList(radioList);
