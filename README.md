@@ -1,4 +1,4 @@
-# CollapsingToolbarExample
+# CollapsingToolbarDemo
 Material collapsing toolbar and floating action button demonstration
 
-![](https://raw.githubusercontent.com/iammert/CollapsingToolbarExample/master/art/cover.png "")
+![](https://raw.githubusercontent.com/amineghabi/CollapsingToolbarDemo-master/master/art/cover.png"")
